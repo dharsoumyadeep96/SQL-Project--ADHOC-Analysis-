@@ -1,8 +1,10 @@
 # SQL-Project--ADHOC-Analysis-
 This project demonstrates Ad Hoc Data Analysis using SQL to answer real-world business questions. It includes database creation, structured queries, aggregations, filtering, joins, and insight generation to support data-driven decision-making.
 
+
 # AtliQ Hardware - Ad Hoc Analysis SQL Project
 
+## Dataset :- https://drive.google.com/file/d/1mduMYjvDyQu470Op8gaUJMWcwGwgZdTY/view?usp=drive_link
 ## 📊 Project Overview
 
 This project showcases advanced SQL analytics for AtliQ Hardware, a leading computer hardware manufacturer operating across PC, Networking & Storage (N&S), and Peripherals & Accessories (P&A) divisions in 4 major global regions.
