@@ -1,0 +1,30 @@
+/*
+================================================================================
+Q2: Percentage Increase of Unique Products in 2021 vs 2020
+================================================================================
+
+Business Requirement:
+Compare unique products sold in 2020 and 2021 and calculate the
+percentage increase.
+
+Tables Used:
+- fact_sales_monthly
+
+Logic:
+1. Count distinct product_code for fiscal year 2020
+2. Count distinct product_code for fiscal year 2021
+3. Calculate percentage change using formula:
+   ((unique_2021 - unique_2020) / unique_2020) * 100
+
+================================================================================
+*/
+
+SELECT
+    COUNT(DISTINCT CASE WHEN fiscal_year = 2020 THEN product_code END) 
+        AS unique_products_2020,
+    COUNT(DISTINCT CASE WHEN fiscal_year = 2021 THEN product_code END) 
+        AS unique_products_2021,
+    ROUND(
+        (
+            COUNT(DISTINCT CASE WHEN fiscal_year = 2021 THEN product_code END)
+            - COUNT(DISTINCT CASE WHE
