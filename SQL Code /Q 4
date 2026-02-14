@@ -25,4 +25,13 @@ SELECT
     p.segment,
     COUNT(DISTINCT CASE WHEN s.fiscal_year = 2020 THEN s.product_code END) 
         AS product_count_2020,
-    COUNT(DISTINCT CASE WHEN s.fiscal_year = 2021 THEN s.pr
+    COUNT(DISTINCT CASE WHEN s.fiscal_year = 2021 THEN s.product_code END) 
+        AS product_count_2021,
+    COUNT(DISTINCT CASE WHEN s.fiscal_year = 2021 THEN s.product_code END) -
+    COUNT(DISTINCT CASE WHEN s.fiscal_year = 2020 THEN s.product_code END) 
+        AS difference
+FROM fact_sales_monthly s
+JOIN dim_product p
+    ON s.product_code = p.product_code
+GROUP BY p.segment
+ORDER BY difference DESC;
