@@ -48,12 +48,6 @@ AtliQ Hardware needed data-driven insights to:
 - Subqueries and Common Table Expressions
 - Data Analysis and Business Intelligence
 
-## 📂 Repository Structure
-├── queries/          # Individual SQL query files (Q1-Q10)
-├── data/            # Database schema and sample data
-├── insights/        # Business recommendations
-└── presentation/    # Project presentation PDF
-
 
 
 ## 🎓 About This Project
