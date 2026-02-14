@@ -1,0 +1,28 @@
+/*
+================================================================================
+Q4: Segment with Highest Increase in Products (2021 vs 2020)
+================================================================================
+
+Business Requirement:
+Identify which segment grew the most in terms of unique products between
+2020 and 2021.
+
+Tables Used:
+- fact_sales_monthly
+- dim_product
+
+Logic:
+1. Join fact_sales_monthly with dim_product on product_code
+2. Count unique products per segment for fiscal year 2020
+3. Count unique products per segment for fiscal year 2021
+4. Calculate the difference (growth) between 2021 and 2020
+5. Sort by difference in descending order to show highest growth first
+
+================================================================================
+*/
+
+SELECT
+    p.segment,
+    COUNT(DISTINCT CASE WHEN s.fiscal_year = 2020 THEN s.product_code END) 
+        AS product_count_2020,
+    COUNT(DISTINCT CASE WHEN s.fiscal_year = 2021 THEN s.pr
