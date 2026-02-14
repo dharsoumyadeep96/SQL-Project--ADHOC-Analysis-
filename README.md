@@ -66,7 +66,7 @@ Data Analyst | Virtual Intern at AtliQ Technologies
 - 🐙 GitHub: [@dharsoumyadeep96](https://github.com/dharsoumyadeep96)
 
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 Special Thanks
 Codebasics Team
 This project was completed as part of the Codebasics Resume Project Challenge. Special thanks to Dhaval Patel and the entire Codebasics team for:
@@ -81,7 +81,7 @@ Thanks to AtliQ Technologies for providing the virtual internship opportunity an
 Data Analytics Community
 Grateful to the data analytics community on LinkedIn, YouTube, and various forums for continuous learning and inspiration.
 
-📚 References
+## 📚 References
 Learning Resources
 SQL & Database Design
 
@@ -101,7 +101,7 @@ Data Modeling
 Star Schema Design - Kimball Group resources
 Database Design Fundamentals - Schema design principles
 
-Tools & Technologies
+## Tools & Technologies
 
 MySQL Workbench - Database management and query execution
 Power BI - Data modeling and schema design
@@ -123,7 +123,7 @@ Maven Analytics - Data analytics challenges
 DataLemur - SQL interview questions
 
 
-🎓 Educational Background
+## 🎓 Educational Background
 This project demonstrates skills learned through:
 
 Codebasics SQL Bootcamp - Advanced SQL for Data Professionals
@@ -132,7 +132,7 @@ Database Management - Schema design and optimization
 Self-directed Learning - Continuous skill development
 
 
-📖 Related Projects
+## 📖 Related Projects
 If you found this project interesting, check out these related projects:
 
 Sales Insights Data Analysis - Power BI Dashboard
@@ -140,7 +140,7 @@ Hospitality Domain Analysis - SQL + Power BI
 Finance Analytics Project - Excel + SQL
 
 
-🤝 Contributing
+## 🤝 Contributing
 While this is a personal portfolio project, I welcome:
 
 ✅ Suggestions for query optimization
@@ -150,7 +150,7 @@ While this is a personal portfolio project, I welcome:
 
 Feel free to open an issue or submit a pull request!
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 Usage Terms
 
@@ -160,7 +160,7 @@ Usage Terms
 ❌ Do not present as your own original work without acknowledgment
 
 
-🌟 Star This Repository
+## 🌟 Star This Repository
 If this project helped you learn SQL or inspired your own data analysis journey, please consider:
 
 ⭐ Starring this repository
@@ -169,4 +169,4 @@ If this project helped you learn SQL or inspired your own data analysis journey,
 
 Your support motivates me to create more projects!
 
-Made with ❤️ and SQL by Soumyadeep Dhar
+## Made with ❤️ and SQL by Soumyadeep Dhar
