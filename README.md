@@ -4,6 +4,10 @@ This project demonstrates Ad Hoc Data Analysis using SQL to answer real-world bu
 
 # AtliQ Hardware - Ad Hoc Analysis SQL Project
 
+## Video Presentation:- https://youtu.be/LLECzwzU3gI?si=edlHqhHPZwoHwFAu
+
+
+
 ## Dataset :- https://drive.google.com/file/d/1mduMYjvDyQu470Op8gaUJMWcwGwgZdTY/view?usp=drive_link
 ## 📊 Project Overview
 
